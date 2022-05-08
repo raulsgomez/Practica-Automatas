@@ -1,0 +1,11 @@
+entero a
+entero b
+
+a = 0
+b = 1
+
+si((a==1 || b==1) && (a!=1 || b!=1))
+    imprimir("OK: uno de los dos es 1")
+sino
+    imprimir("ERROR")
+fin

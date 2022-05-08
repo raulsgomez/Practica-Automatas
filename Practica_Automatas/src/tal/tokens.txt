@@ -1,0 +1,4 @@
+entero cadena si sino mientras fin imprimir
+id var// comentario de linea
+1234"cadena"/* comentario
+de bloque */=+-*/== < > <= >= != ! || && ()

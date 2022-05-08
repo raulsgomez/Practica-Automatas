@@ -1,0 +1,30 @@
+entero n
+entero d
+entero t
+t = 0
+n = 2
+
+mientras(n < 100)
+    d = 2
+
+    mientras(d*d<=n && n/d*d != n)
+        d = d+1
+    fin
+
+    si(d*d > n)
+        imprimir(n +" es primo!")
+        t = t+1
+    sino
+        imprimir(n +" no")
+    fin
+
+    n = n+1
+fin
+
+imprimir("")
+
+si(t==25)
+    imprimir("OK: "+ t +" primos")
+sino
+    imprimir("ERROR: no hay "+ t +" primos")
+fin

@@ -1,0 +1,8 @@
+entero i
+i = 3
+
+si(-i + i != 0)
+    imprimir("ERROR!")
+sino
+    imprimir("OK: Funciona el operador 'negar'")
+fin
